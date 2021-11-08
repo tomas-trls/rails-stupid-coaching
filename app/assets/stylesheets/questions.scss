@@ -1,0 +1,22 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.input_text {
+  display: inline-block;
+  width: 300px;
+  margin: 0 auto;
+  padding:12px;
+}
+
+.input_btn {
+  position: relative;
+  left: -5px;
+  display: inline-block;
+  color:white;
+  background-color:#337AB7;
+  margin: 0 auto;
+  padding:12px;
+  border-radius: 0px 8px 8px 0px;
+  font-family: 'Poppins', sans-serif;
+}

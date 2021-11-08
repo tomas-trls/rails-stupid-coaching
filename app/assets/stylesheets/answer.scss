@@ -1,0 +1,43 @@
+// Place all the styles related to the answer controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+$poppins: 'Poppins';
+$gray: #F4F4F4;
+body {
+  background: $gray; // Using this variable
+  padding-left: 12px;
+  width: 600px;
+  font-family: $poppins, sans-serif;
+}
+
+.banner-me {
+  padding: 5px;
+  box-shadow: -7px 0px rgba(180, 180, 180, 0.7);
+  margin-bottom: 16px;
+}
+
+.banner {
+  background: rgba(255, 235, 54, 0.2);
+  padding: 5px;
+  margin-bottom: 16px;
+  box-shadow: -7px 0px rgba(180, 180, 180, 0.7);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+div > p {
+  padding-left: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+
+  &:hover {
+    color: black;
+  }
+}
